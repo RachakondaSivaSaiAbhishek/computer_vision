@@ -8,42 +8,54 @@ This repository provides a collection of simple scripts and code snippets for pe
 - **Video Processing**: Read and display videos, extract frames, and process each frame individually.
 - **Webcam Processing**: Capture video from a webcam, apply real-time filters and effects, and display the output.
 
+
+## Requirements
+
+- Python 3.x
+- OpenCV library
+- NumPy library
+
 ## Installation
 
-To use the scripts and code provided in this repository, you need to have OpenCV (cv2) installed on your system. You can install it using `pip`:
+1. Clone the repository:
 
-```shell
-pip install opencv-python
+```bash
+git clone https://github.com/your-username/image-processing-opencv.git
 ```
 
-Make sure you have Python 3.x installed on your system.
+2. Install the required libraries using pip:
+
+```bash
+pip install opencv-python numpy
+```
 
 ## Usage
 
-Each script in this repository focuses on a specific task and comes with detailed comments explaining the code. You can run the scripts directly by executing the Python files:
+1. Update the `img` variable in the script with the path to your desired input image.
+2. Run the script:
 
-```shell
-python script_name.py
+```bash
+python image_processing.py
 ```
 
-Replace `script_name.py` with the name of the script you want to run.
+3. The processed images will be displayed in separate windows.
 
-## Contents
+## Examples
 
-1. `image_processing.py`: Demonstrates basic image processing operations.
-2. `video_processing.py`: Shows how to read and process videos.
-3. `webcam_processing.py`: Illustrates how to capture and process video from a webcam.
+Original Image             | Grayscale Image             | Blurred Image
+:-------------------------:|:-------------------------:|:-------------------------:
+![Original Image](examples/original.jpg)  |  ![Grayscale Image](examples/grayscale.jpg)  | ![Blurred Image](examples/blurred.jpg)
 
-Feel free to explore and modify the code according to your requirements. The scripts serve as a starting point for beginners to get familiar with OpenCV and its capabilities for image and video processing.
-
-## Contributing
-
-If you have any suggestions, improvements, or additional code snippets that you would like to contribute, feel free to open a pull request. Your contributions are highly appreciated!
+Edge-Detected Image             | Dilated Image             | Eroded Image
+:-------------------------:|:-------------------------:|:-------------------------:
+![Edge-Detected Image](examples/edges.jpg)  |  ![Dilated Image](examples/dilated.jpg)  | ![Eroded Image](examples/eroded.jpg)
 
 ## License
 
-This repository is licensed under the MIT License. Please refer to the [LICENSE](LICENSE) file for more details.
+This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+---
 
-This project was inspired by the OpenCV library and the desire to provide beginners with simple examples of image, video, and webcam processing. Many thanks to the developers of OpenCV and the Python community for their continuous support and contribution to the field of computer vision.
+You can modify the paths and examples section to fit your specific use case and add more details if needed. Make sure to update the image paths and license information accordingly.
+
+Feel free to customize it further to suit your project requirements!
