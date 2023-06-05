@@ -44,12 +44,12 @@ python image_processing.py
 
 Original Image             | Grayscale Image             | Blurred Image
 :-------------------------:|:-------------------------:|:-------------------------:
-![Original Image](examples/original.jpg)  |  ![Grayscale Image](examples/grayscale.jpg)  | ![Blurred Image](examples/blurred.jpg)
+![Original Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/ori.png)  |  ![Grayscale Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/grey.png)  | ![Blurred Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/blur.png)
 
 
 Edge-Detected Image             | Dilated Image             | Eroded Image
 :-------------------------:|:-------------------------:|:-------------------------:
-![Edge-Detected Image](examples/edges.jpg)  |  ![Dilated Image](examples/dilated.jpg)  | ![Eroded Image](examples/eroded.jpg)
+![Edge-Detected Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/edg.png)  |  ![Dilated Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/dil.png)  | ![Eroded Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/eroded.png)
 
 ## License
 
