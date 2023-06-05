@@ -46,6 +46,7 @@ Original Image             | Grayscale Image             | Blurred Image
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Original Image](examples/original.jpg)  |  ![Grayscale Image](examples/grayscale.jpg)  | ![Blurred Image](examples/blurred.jpg)
 
+
 Edge-Detected Image             | Dilated Image             | Eroded Image
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Edge-Detected Image](examples/edges.jpg)  |  ![Dilated Image](examples/dilated.jpg)  | ![Eroded Image](examples/eroded.jpg)
