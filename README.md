@@ -51,6 +51,9 @@ Edge-Detected Image             | Dilated Image             | Eroded Image
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Edge-Detected Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/edg.png)  |  ![Dilated Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/dil.png)  | ![Eroded Image](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/eroded.png)
 
+![RESIZE](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/resize.png)
+
+![CROPPED](https://github.com/RachakondaSivaSaiAbhishek/computer_vision/blob/main/car_functions/crop.png)
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
