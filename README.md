@@ -20,7 +20,7 @@ This repository provides a collection of simple scripts and code snippets for pe
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/image-processing-opencv.git
+git clone https://github.com/RachakondaSivaSaiAbhishek/computer_vision.git
 ```
 
 2. Install the required libraries using pip:
@@ -35,7 +35,7 @@ pip install opencv-python numpy
 2. Run the script:
 
 ```bash
-python image_processing.py
+python functions.py
 ```
 
 3. The processed images will be displayed in separate windows.
