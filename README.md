@@ -57,7 +57,3 @@ Edge-Detected Image             | Dilated Image             | Eroded Image
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-You can modify the paths and examples section to fit your specific use case and add more details if needed. Make sure to update the image paths and license information accordingly.
-
-Feel free to customize it further to suit your project requirements!
