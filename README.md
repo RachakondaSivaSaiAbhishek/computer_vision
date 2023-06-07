@@ -26,7 +26,7 @@ git clone https://github.com/RachakondaSivaSaiAbhishek/computer_vision.git
 2. Install the required libraries using pip:
 
 ```bash
-pip install opencv-python numpy
+pip install numpy
 ```
 
 ## Usage
