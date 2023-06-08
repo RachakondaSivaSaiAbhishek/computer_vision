@@ -16,6 +16,8 @@ cv2.line(img,(0,512),(255,255),(0,255,255),5)
 
 cv2.circle(img,(400,50),30,(0,255,0),2)
 
+cv2.putText(img," OPENCV ",(300,100),cv2.FONT_HERSHEY_COMPLEX,0.5,1,(0,150,0),1)
+
 cv2.imshow("image",img)
 
 
