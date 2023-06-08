@@ -1,17 +1,20 @@
 import cv2
 import numpy as np
 
+# Load the image
 img = cv2.imread("Rsources/leans.png")
 
-imgHor = np.hstack((img,img))
+# Perform horizontal concatenation
+imgHor = np.hstack((img, img))
 
-cv2.imshow("horizontal",imgHor)
+# Display the horizontally concatenated image
+cv2.imshow("Horizontal", imgHor)
 
-imgVer = np.vstack((img,img))
+# Perform vertical concatenation
+imgVer = np.vstack((img, img))
 
-cv2.imshow("Vertical",imgVer)
+# Display the vertically concatenated image
+cv2.imshow("Vertical", imgVer)
 
+# Wait for a key press to exit
 cv2.waitKey(0)
-
-
-
